@@ -1,0 +1,17 @@
+{
+  "name": "EDrum Kit",
+  "manufacturer": "burgerbarn",
+  "version": "1.0.0",
+  "format": "vst2",
+  "kind": "instrument",
+  "uid": "Bnf6",
+  "numInputs": 0,
+  "numOutputs": 2,
+  "category": "Drums",
+  "file32": "VST/edrum-kit-arm32.so",
+  "file64": "VST/edrum-kit-arm64.so",
+  "description": "Plays the MPC's own drum kits from Roland V-Drums (TD-27 with digital pads): zones, continuous hi-hat, positional snare/ride, cymbal chokes, velocity curves.",
+  "author": "burgerbarn",
+  "url": "https://github.com/burgerbarn/edrum-kit-mpc",
+  "license": "MIT"
+}

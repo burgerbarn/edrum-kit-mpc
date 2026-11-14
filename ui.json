@@ -1,0 +1,346 @@
+{
+  "kit": {
+    "theme": "amber"
+  },
+  "style": {
+    "background": "ff101114",
+    "accent": "ffffa31a",
+    "text": "fff2ece4",
+    "muted": "ff8a8378"
+  },
+  "pages": [
+    {
+      "name": "KIT",
+      "controls": [
+        {
+          "param": "Kit",
+          "widget": "knob",
+          "overlay": "menu"
+        },
+        {
+          "param": "Master",
+          "widget": "fader"
+        },
+        {
+          "param": "Dynamics",
+          "widget": "knob"
+        },
+        {
+          "param": "Vel Tone",
+          "widget": "knob"
+        },
+        {
+          "param": "Sensitivity",
+          "widget": "knob"
+        },
+        {
+          "param": "HH Mode",
+          "widget": "knob",
+          "overlay": "menu"
+        },
+        {
+          "param": "Position",
+          "widget": "switch"
+        },
+        {
+          "param": "My Curves",
+          "widget": "switch"
+        },
+        {
+          "param": "Humanize",
+          "widget": "knob"
+        },
+        "empty",
+        "empty",
+        "empty"
+      ]
+    },
+    {
+      "name": "MIX",
+      "controls": [
+        {
+          "param": "Kick",
+          "widget": "fader"
+        },
+        {
+          "param": "Snare",
+          "widget": "fader"
+        },
+        {
+          "param": "Toms",
+          "widget": "fader"
+        },
+        {
+          "param": "Hats",
+          "widget": "fader"
+        },
+        {
+          "param": "Cymbals",
+          "widget": "fader"
+        },
+        {
+          "param": "Ride",
+          "widget": "fader"
+        },
+        {
+          "param": "Aux",
+          "widget": "fader"
+        },
+        {
+          "param": "Master",
+          "widget": "fader"
+        }
+      ]
+    },
+    {
+      "name": "KICK",
+      "controls": [
+        {
+          "param": "Kick Tune",
+          "widget": "knob"
+        },
+        {
+          "param": "Kick Decay",
+          "widget": "fader"
+        },
+        {
+          "param": "Kick Tone",
+          "widget": "knob"
+        },
+        {
+          "param": "Kick Level",
+          "widget": "fader"
+        },
+        {
+          "param": "Kick Pan",
+          "widget": "knob"
+        },
+        {
+          "param": "Kick",
+          "widget": "fader"
+        },
+        "empty",
+        "empty"
+      ]
+    },
+    {
+      "name": "SNARE",
+      "controls": [
+        {
+          "param": "Snare Tune",
+          "widget": "knob"
+        },
+        {
+          "param": "Snare Decay",
+          "widget": "fader"
+        },
+        {
+          "param": "Snare Tone",
+          "widget": "knob"
+        },
+        {
+          "param": "Snare Level",
+          "widget": "fader"
+        },
+        {
+          "param": "Snare Pan",
+          "widget": "knob"
+        },
+        {
+          "param": "Snare",
+          "widget": "fader"
+        },
+        {
+          "param": "Position",
+          "widget": "switch"
+        },
+        "empty"
+      ]
+    },
+    {
+      "name": "TOMS",
+      "controls": [
+        {
+          "param": "Tom1 Tune",
+          "widget": "knob"
+        },
+        {
+          "param": "Tom1 Decay",
+          "widget": "fader"
+        },
+        {
+          "param": "Tom1 Tone",
+          "widget": "knob"
+        },
+        {
+          "param": "Tom1 Level",
+          "widget": "fader"
+        },
+        {
+          "param": "Tom2 Tune",
+          "widget": "knob"
+        },
+        {
+          "param": "Tom2 Decay",
+          "widget": "fader"
+        },
+        {
+          "param": "Tom2 Tone",
+          "widget": "knob"
+        },
+        {
+          "param": "Tom2 Level",
+          "widget": "fader"
+        },
+        {
+          "param": "Tom3 Tune",
+          "widget": "knob"
+        },
+        {
+          "param": "Tom3 Decay",
+          "widget": "fader"
+        },
+        {
+          "param": "Tom3 Tone",
+          "widget": "knob"
+        },
+        {
+          "param": "Tom3 Level",
+          "widget": "fader"
+        },
+        {
+          "param": "Tom1 Pan",
+          "widget": "knob"
+        },
+        {
+          "param": "Tom2 Pan",
+          "widget": "knob"
+        },
+        {
+          "param": "Tom3 Pan",
+          "widget": "knob"
+        },
+        {
+          "param": "Toms",
+          "widget": "fader"
+        }
+      ]
+    },
+    {
+      "name": "HATS",
+      "controls": [
+        {
+          "param": "Hats Tune",
+          "widget": "knob"
+        },
+        {
+          "param": "Hats Decay",
+          "widget": "fader"
+        },
+        {
+          "param": "Hats Tone",
+          "widget": "knob"
+        },
+        {
+          "param": "Hats Level",
+          "widget": "fader"
+        },
+        {
+          "param": "Hats Pan",
+          "widget": "knob"
+        },
+        {
+          "param": "Hats",
+          "widget": "fader"
+        },
+        {
+          "param": "HH Mode",
+          "widget": "knob",
+          "overlay": "menu"
+        },
+        "empty"
+      ]
+    },
+    {
+      "name": "CYMBALS",
+      "controls": [
+        {
+          "param": "Crash1 Tune",
+          "widget": "knob"
+        },
+        {
+          "param": "Crash1 Decay",
+          "widget": "fader"
+        },
+        {
+          "param": "Crash1 Tone",
+          "widget": "knob"
+        },
+        {
+          "param": "Crash1 Level",
+          "widget": "fader"
+        },
+        {
+          "param": "Crash2 Tune",
+          "widget": "knob"
+        },
+        {
+          "param": "Crash2 Decay",
+          "widget": "fader"
+        },
+        {
+          "param": "Crash2 Tone",
+          "widget": "knob"
+        },
+        {
+          "param": "Crash2 Level",
+          "widget": "fader"
+        },
+        {
+          "param": "Crash1 Pan",
+          "widget": "knob"
+        },
+        {
+          "param": "Crash2 Pan",
+          "widget": "knob"
+        },
+        {
+          "param": "Cymbals",
+          "widget": "fader"
+        },
+        "empty"
+      ]
+    },
+    {
+      "name": "RIDE",
+      "controls": [
+        {
+          "param": "Ride Tune",
+          "widget": "knob"
+        },
+        {
+          "param": "Ride Decay",
+          "widget": "fader"
+        },
+        {
+          "param": "Ride Tone",
+          "widget": "knob"
+        },
+        {
+          "param": "Ride Level",
+          "widget": "fader"
+        },
+        {
+          "param": "Ride Pan",
+          "widget": "knob"
+        },
+        {
+          "param": "Ride",
+          "widget": "fader"
+        },
+        "empty",
+        "empty"
+      ]
+    }
+  ]
+}
